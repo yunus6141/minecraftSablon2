@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-image: url(../resimler/Adsız\ tasarım.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+}
+
+.ust-menu{
+    border-radius: 5px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 15px;
+    background-color: rgb(14, 47, 25);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ust-menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 700px;
+}
+
+.ust-menu ul li {
+    float: left;
+}
+
+.ust-menu ul li a {
+    size: 15px;
+    padding: 5px 15px;
+    color: aqua;
+    text-decoration: none;
+    margin-right: 50px;
+    border-radius: 5px;
+    transition: 0.5;
+    font-size: 18px;
+    justify-content: space-between;
+    
+
+}
+
+.ust-menu ul li a:hover {
+    color: aquamarine;
+}
+
+
+.icerik {
+    background-color: white;
+    border-radius: 25px;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 15px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.icerik img {
+    border-radius: 25px;
+    margin-right: 50px;
+}
+
+.icerik h1 {
+    margin-right: 50px;
+}
+
+.icerik .aEtiketi {
+    display: grid;
+}
+
+.icerik .aEtiketi a{
+    display: block;
+    border: 2px solid aqua;
+    background-color: aqua;
+    color: black;
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    padding-right: 30px;
+    font-size: 20px;
+    
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+
+.alt {
+    margin-top: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: left;
+}
+
+.alt .sol {
+    display: grid;
+    margin-left: 50px;
+    margin-right: 400px;
+}
+
+.alt .sol img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px 10px;
+}
+
+.alt .orta {
+    margin-top: 50px;
+}
+
+.alt .orta h4 {
+    font-size: 25px;
+    color: white;
+}
+
+.alt .orta ul li {
+    list-style-type: none;
+}
+
+.alt .orta ul li a {
+    text-decoration: none;
+    color: #a0e081;
+}
+
+.alt .sag img {
+    margin-left: 150px;
+}
+
+.alt .sag p{
+    color: white;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+.alt .sag a{
+    text-decoration: none;
+}

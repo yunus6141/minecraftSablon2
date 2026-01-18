@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MinecraftT</title>
+    <link rel="stylesheet" href="css/mcEdinin.css">
+    <link rel="icon" type="image/png" href="resimler/logoşeffaf.png">
+</head>
+<body>
+
+    <script>
+    function muzikBaslat() {
+        var muzik = document.getElementById("arkaPlanMuzik");
+        muzik.play()
+            .then(() => {
+                // Başarıyla çalmaya başladı
+            })
+            .catch(error => {
+                // Hata durumunda (Hala engellendi, sessiz modda vb.)
+                console.log("Müzik çalma engellendi: " + error);
+            });
+    }
+</script>
+
+    <audio id="arkaPlanMuzik" loop>
+    <source src="resimler/subwoofer-lullaby.mp3" type="audio/mpeg">
+</audio>
+
+<button onclick="muzikBaslat()" style="position:fixed; bottom:10px; right:10px;">
+    Müziği Başlat
+</button>
+
+    <div class="ust-menu">
+            <a href="anasayfa.html"><img src="resimler/logo.png" alt="logo" height="50" width="250"></a>
+
+        <ul>
+            <li><a href="anasayfa.html">Anasayfa</a></li>
+            <li><a href="mcEdinin.html">Minecraft Edinin</a></li>
+            <li><a href="seedler.html">Seed'ler</a></li>
+        </ul>
+    </div>
+    
+    <div class="icerik">
+        <img src="resimler/MinecraftGörsel1.png" alt="resim4" height="350" width="500">
+
+        <h1>
+            Bir <br>
+            Minecraft <br>
+            Edinin
+        </h1>
+    <div class="aEtiketi">
+        <a href="https://tlauncher.org/en">Tlauncher İndir</a>
+        <a href="https://llaun.ch/tr">Legacy Launcher İndir</a>
+        <a href="https://www.minecraft.net/tr-tr/store/minecraft-deluxe-collection-pc?tabs=%7B"details"%3A0%7D">Orjinal Minecraft</a>
+    </div>
+        
+    </div>
+
+    
+    <div class="alt">
+        <div class="sol">
+            <a href="https://tr.wikipedia.org/wiki/Mojang_Studios" target="_blank"><img src="resimler/Mojang2020Logo.png" alt="Mojang" width="170" height="170"></a>
+            <a href="https://tr.wikipedia.org/wiki/Xbox_Game_Studios" target="_blank"><img src="resimler/Logo_Xbox_Game_Studio.webp" alt="Logo_Xbox_Game_Studio" width="170" height="170"></a>
+        </div>
+
+        <div class="orta">
+        <h4>Topluluk</h4>
+        <ul>
+            <li><a href="https://www.minecraft.net/tr-tr/mojang-careers" target="_blank">Mojang Kariyer Fırsatı</a></li>
+            <li><a href="https://www.minecraft.net/tr-tr/minecraft-movie" target="_blank">Bir Minecraft Filmi</a></li>
+        </ul>
+
+        <h4>Sosyal Medya & İletişim</h4>
+        <ul>
+            <li>Gmail: minecraftT2025@gmail.com</li>
+            <li><a href="https://www.minecraft.net/tr-tr/minecraft-movie" target="_blank">Youtube</a></li>
+            <li><a href="https://www.instagram.com/minecraft" target="_blank">İnstagram</a></li>
+            <li><a href="https://www.tiktok.com/@minecraft" target="_blank">TikTok</a></li>
+            <li><a href="https://whatsapp.com/channel/0029VakYS0uKLaHg2yxV2T1p" target="_blank">Whatsapp</a></li>
+        </ul>
+
+        <h4>Yapımcılar</h4>
+        <ul>
+            <li><a href="#">MinecraftT</a></li>
+            <li><a href="https://www.minecraft.net/tr-tr" target="_blank">Minecraft</a></li>
+        </ul>
+    </div>
+
+    <div class="sag">
+        
+        <a href="tesekkur.html" target="_blank"><img src="resimler/logoşeffaf.png" alt="logo" width="500" height="300"></a>
+         <p>&copy; 2025 Ekim 16, Tüm Haklar Saklıdır.</p>
+    </div>
+    </div>
+
+</body>
+</html>

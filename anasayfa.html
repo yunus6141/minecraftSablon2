@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MinecraftT</title>
+    <link rel="stylesheet" href="css/bicimler.css">
+    <link rel="icon" type="image/png" href="resimler/logoşeffaf.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <script>
+    function muzikBaslat() {
+        var muzik = document.getElementById("arkaPlanMuzik");
+        muzik.play()
+            .then(() => {
+            })
+            .catch(error => {
+                
+                console.log("Müzik çalma engellendi: " + error);
+            });
+    }
+</script>
+
+    <audio id="arkaPlanMuzik" loop>
+    <source src="resimler/c-lullaby.mp3" type="audio/mpeg">
+</audio>
+
+<button onclick="muzikBaslat()" style="position:fixed; bottom:10px; right:10px;">
+    Müziği Başlat
+</button>
+
+    <div class="ust-menu">
+            <a href="anasayfa.html"><img src="resimler/logo.png" alt="logo" height="50" width="250"></a>
+
+        <ul>
+            <li><a href="anasayfa.html">Anasayfa</a></li>
+            <li><a href="mcEdinin.html">Minecraft Edinin</a></li>
+            <li><a href="seedler.html">Seed'ler</a></li>
+        </ul>
+    </div>
+    <div class="menuAltı"></div>
+    <div class="icerik">
+    <img class="gorsel1" src="resimler/görrsel1.png" alt="Minecraftgörseli" height="400" width="800">
+    
+    <div class="metin-kutusu">
+        <h1>MİNECRAFT: <br>
+            Bir Maden Oyunundan Daha Fazlası...<br> 
+                
+    </h1> 
+    </div>
+
+    
+    </div>
+
+    <!-- <div class="muzikler">
+
+        <button onclick="muzikBaslat()" type="button" class="btn btn-success"><i class="fa-regular fa-circle-play"></i> subwoofer Lullaby</button>
+        <button onclick="" type="button" class="btn btn-success"><i class="fa-regular fa-circle-play"></i>  Door</button>
+        <button onclick="" type="button" class="btn btn-success"><i class="fa-regular fa-circle-play"></i> Living Mice</button>
+        <button onclick="" type="button" class="btn btn-success"><i class="fa-regular fa-circle-play"></i> Moog City</button>
+
+    </div> -->
+
+
+
+    <div class="ayırıcı-çizgi1"></div>
+
+
+
+    <div class="icerik2">
+        
+        
+        <h1>MİNECRAFT</h1>
+        <p>Minecraft, ilk olarak Markus "Notch" Persson tarafından yaratıldı ve 
+            Mayıs 2009'da genel kullanıma sunulduğu ilk alfa sürümüyle büyük ilgi topladı. 
+            Basit bir blok yerleştirme mekaniği etrafında inşa edilen oyun, kısa sürede yaratıcılığı ve hayatta kalma unsurlarını birleştirerek popülerlik kazandı.
+            İki yıllık yoğun geliştirme sürecinin ardından, Kasım 2011'de resmi olarak tam sürümüne (1.0) ulaştı. Bu süre zarfında geliştirici şirket Mojang Studios kuruldu.
+            Oyunun küresel başarısı, Eylül 2014'te Microsoft'un Mojang Studios'u satın almasıyla daha da pekişti ve oyun, 
+            dünya çapında en çok satan video oyunlarından biri haline gelerek farklı platformlara yayıldı.</p>
+    </div>
+
+    <div class="ayırıcı-çizgi2"></div>
+
+    <div class="oyunlar">
+        
+        <div class="java">
+            <img src="resimler/mcjavavebadrack.jpg" alt="javaBadrock" height="250" width="250">
+
+            <div class="metin-kartı">
+                <h3><a href="https://www.minecraft.net/tr-tr/about-minecraft" target="_blank">Minecraft</a></h3>
+                <p>Sandbox Hayatta Kalma, Macera</p>
+                <p>tek oyunculu + çok oyunculu</p>
+            </div>
+            
+        </div>
+
+        <div class="dungeons">
+            <img src="resimler/mcdungeons.webp" alt="dungeons" height="250" width="250">
+
+            <div class="metin-kartı">
+                <h3><a href="https://www.minecraft.net/tr-tr/about-dungeons" target="_blank">Minecraft Dungeons</a></h3>
+                <p>Dungeon Crawl, Aksiyon RPG</p> 
+                <p>Tek Oyunculu + Çok Oyunculu</p>
+            </div>
+            
+        </div>
+
+        <div class="legends">
+            <img src="resimler/mclegends.webp" alt="legends" height="250" width="250">
+            <div class="metin-kartı">
+                <h3><a href="https://www.minecraft.net/tr-tr/about-legends" target="_blank*">Minecraft Legends</a></h3>
+            <p>Aksiyon RPG, Strateji</p>
+            <p>Tek Oyunculu + Çok Oyunculu</p>
+            </div>
+            
+        </div>
+    </div>
+    <div class="tablolar">
+
+        
+
+        <div class="speedrun">
+
+        <table>
+            <tr id="İlkSatır">
+                <th>#</th>
+                <th>Oyuncu</th>
+                <th>Zaman</th>
+                <th>Tarih</th>
+                <th>Versiyon</th>
+            </tr>
+
+            <tr>
+                <th><b>1.</b></th>
+                <td>lowkey</td>
+                <td>6dk 56s 720ms</td>
+                <td><i>5 ay önce</i></td>
+                <td>1.16.1</td>
+            </tr>
+
+            <tr>
+                <th><b>2.</b></th>
+                <td>drip120</td>
+                <td>7dk 14s 100ms</td>
+                <td><i>1 yıl önce</i></td>
+                <td>1.16.1</td>
+            </tr>
+
+            <tr>
+                <th><b>3.</b></th>
+                <td>NoHacsJustRoblox</td>
+                <td>7dk 48s 256ms</td>
+                <td><i>1 yıl önce</i></td>
+                <td>1.16.1</td>
+            </tr>
+
+            <tr>
+                <th><b>4.</b></th>
+                <td>skycrab1</td>
+                <td>7dk 45s 521ms</td>
+                <td><i>1 yıl önce</i></td>
+                <td>1.16.1</td>
+            </tr>
+
+            <tr>
+                <th><b>5.</b></th>
+                <td>NoFear1337</td>
+                <td>7dk 49s 366ms</td>
+                <td><i>1 yıl önce</i></td>
+                <td>1.16.1</td>
+            </tr>
+
+            <tr>
+                <th><b>6.</b></th>
+                <td>Jay12310</td>
+                <td>7dk 50s 615ms</td>
+                <td><i>1 yıl önce</i></td>
+                <td>1.16.1</td>
+            </tr>
+
+            <tr>
+                <th><b>7.</b></th>
+                <td>jason_n</td>
+                <td>7dk 49s 936ms</td>
+                <td><i>1 yıl önce</i></td>
+                <td>1.16.1</td>
+            </tr>
+
+            <tr>
+                <th><b>8.</b></th>
+                <td>sadekeppi</td>
+                <td>7dk 46s 025ms</td>
+                <td><i>7 ay önce</i></td>
+                <td>1.16.1</td>
+            </tr>
+
+            <tr>
+        <th><b>9.</b></th>
+        <td>doogile</td>
+        <td>7m 30s 439ms</td>
+        <td>1 yıl önce</td>
+        <td>1.16.1</td>
+    </tr>
+
+    <tr>
+        <th><b>10.</b></th>
+        <td>itsnahan</td>
+        <td>7m 32s 783ms</td>
+        <td>5 ay önce</td>
+        <td>1.16.1</td>
+    </tr>
+
+    <tr>
+        <th><b>11.</b></th>
+        <td>kazzruns</td>
+        <td>7m 33s 804ms</td>
+        <td>3 ay önce</td>
+        <td>1.16.1</td>
+    </tr>
+
+    <tr>
+        <th><b>12.</b></th>
+        <td>Bloopy</td>
+        <td>7m 38s 482ms</td>
+        <td>11 ay önce</td>
+        <td>1.16.1</td>
+    </tr>
+
+    <tr>
+        <th><b>13.</b></th>
+        <td>priffie</td>
+        <td>7m 43s 909ms</td>
+        <td>1 yıl önce</td>
+        <td>1.16.1</td>
+    </tr>
+
+    <tr>
+        <th><b>14.</b></th>
+        <td>PAPLERR</td>
+        <td>7m 45s 368ms</td>
+        <td>6 ay önce</td>
+        <td>1.16.1</td>
+    </tr>
+
+    <tr>
+        <th><b>15.</b></th>
+        <td>zylenox</td>
+        <td>7m 45s 828ms</td>
+        <td>2 yıl önce</td>
+        <td>1.16.1</td>
+    </tr>
+
+    <tr>
+        <th><b>16.</b></th>
+        <td>orachi</td>
+        <td>7m 47s 566ms</td>
+        <td>4 ay önce</td>
+        <td>1.16.1</td>
+    </tr>
+
+    <tr>
+        <th><b>17.</b></th>
+        <td>meebie</td>
+        <td>7m 47s 588ms</td>
+        <td>11 ay önce</td>
+        <td>1.16.1</td>
+    </tr>
+
+    <tr>
+        <th><b>18.</b></th>
+        <td>KenanKardes</td>
+        <td>7m 48s 393ms</td>
+        <td>2 ay önce</td>
+        <td>1.16.1</td>
+    </tr>
+
+    <tr>
+        <th><b>19.</b></th>
+        <td>Kxpow</td>
+        <td>7m 48s 623ms</td>
+        <td>5 ay önce</td>
+        <td>1.16.1</td>
+    </tr>
+
+    <tr>
+        <th><b>20.</b></th>
+        <td>v_strid</td>
+        <td>7m 49s 149ms</td>
+        <td>5 ay önce</td>
+        <td>1.16.1</td>
+    </tr>
+
+            <tr>
+                <th><b>...</b></th>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+            </tr>
+        </table>
+    </div>
+
+        <div class="surumler">
+            <table id="surumOzellikleri">
+    <tr id="baslik">
+        <th>Sürüm</th>
+        <th>Çıkış Tarihi</th>
+        <th>Eklenen Temel Özellikler</th>
+    </tr>
+
+    <tr>
+        <th><b>Classic</b></th>
+        <td>Mayıs 2009</td>
+        <td>Temel bloklar (Toprak, Taş, Odun), Sınırlı envanter.</td>
+    </tr>
+    <tr>
+        <th><b>Beta 1.8</b></th>
+        <td>Eylül 2011</td>
+        <td>Yaratıcı Mod (Creative), Açlık sistemi, Yeni biyo-çeşitlilik (Biome).</td>
+    </tr>
+
+    <tr>
+        <th><b>1.0</b></th>
+        <td>Kasım 2011</td>
+        <td>Oyunun resmi çıkışı, Son Boyut (The End), İksirler ve Büyüleme (Enchantment).</td>
+    </tr>
+    <tr>
+        <th><b>1.4.2</b></th>
+        <td>Ekim 2012</td>
+        <td>Korkunç Güncelleme (The Scary Update), Wither Boss, Anvil (Örs).</td>
+    </tr>
+    <tr>
+        <th><b>1.7.2</b></th>
+        <td>Ekim 2013</td>
+        <td>Biyo-çeşitlilik Güncellemesi (The Update That Changed The World), Yeni biyo-çeşitlilikler, Yeni Ağaç Türleri.</td>
+    </tr>
+    <tr>
+        <th><b>1.8</b></th>
+        <td>Eylül 2014</td>
+        <td>Cesur Yeni Dünya (The Bountiful Update), Okyanus Anıtları, Deniz Feneri, Köylü takasları geliştirmesi.</td>
+    </tr>
+
+    <tr>
+        <th><b>1.9</b></th>
+        <td>Şubat 2016</td>
+        <td>Savaş Güncellemesi (Combat Update), Kalkanlar, Çift elle tutma (Dual Wielding), Elytra.</td>
+    </tr>
+    <tr>
+        <th><b>1.13</b></th>
+        <td>Temmuz 2018</td>
+        <td>Suyun Altı Güncellemesi (Update Aquatic), Yunuslar, Batık gemiler, Yeni su altı canavarları.</td>
+    </tr>
+    <tr>
+        <th><b>1.14</b></th>
+        <td>Nisan 2019</td>
+        <td>Köy ve Yağma (Village & Pillage), Yenilenmiş köylüler ve köyler, Yağmacı Outpost'lar.</td>
+    </tr>
+    <tr>
+        <th><b>1.16</b></th>
+        <td>Haziran 2020</td>
+        <td>Nether Güncellemesi (Nether Update), Yeni Nether Biyo-çeşitlilikleri (Warped/Crimson Forest), Piglinler.</td>
+    </tr>
+    <tr>
+        <th><b>1.18</b></th>
+        <td>Kasım 2021</td>
+        <td>Dağlar ve Mağaralar II (Caves & Cliffs II), Maksimum yükseklik artışı, Yeni derin mağara biyo-çeşitlilikleri.</td>
+    </tr>
+    <tr>
+        <th><b>1.20</b></th>
+        <td>Haziran 2023</td>
+        <td>Yolculuk ve Hikayeler (Trails & Tales), Deve, Arkeoloji, Kiraz Çiçeği Biyomu.</td>
+    </tr>
+</table>
+        </div>
+    </div>
+    
+
+    <div class="alt">
+        <div class="sol">
+            <a href="https://tr.wikipedia.org/wiki/Mojang_Studios" target="_blank"><img src="resimler/Mojang2020Logo.png" alt="Mojang" width="170" height="170"></a>
+            <a href="https://tr.wikipedia.org/wiki/Xbox_Game_Studios" target="_blank"><img src="resimler/Logo_Xbox_Game_Studio.webp" alt="Logo_Xbox_Game_Studio" width="170" height="170"></a>
+        </div>
+
+        <div class="orta">
+        <h4>Topluluk</h4>
+        <ul>
+            <li><a href="https://www.minecraft.net/tr-tr/mojang-careers" target="_blank">Mojang Kariyer Fırsatı</a></li>
+            <li><a href="https://www.minecraft.net/tr-tr/minecraft-movie" target="_blank">Bir Minecraft Filmi</a></li>
+        </ul>
+
+        <h4>Sosyal Medya & İletişim</h4>
+        <ul>
+            <li>Gmail: minecraftT2025@gmail.com</li>
+            <li><a href="https://www.minecraft.net/tr-tr/minecraft-movie" target="_blank">Youtube</a></li>
+            <li><a href="https://www.instagram.com/minecraft" target="_blank">İnstagram</a></li>
+            <li><a href="https://www.tiktok.com/@minecraft" target="_blank">TikTok</a></li>
+            <li><a href="https://whatsapp.com/channel/0029VakYS0uKLaHg2yxV2T1p" target="_blank">Whatsapp</a></li>
+        </ul>
+
+        <h4>Yapımcılar</h4>
+        <ul>
+            <li><a href="#">MinecraftT</a></li>
+            <li><a href="https://www.minecraft.net/tr-tr" target="_blank">Minecraft</a></li>
+        </ul>
+    </div>
+
+    <div class="sag">
+        
+        <a href="tesekkur.html" target="_blank"><img src="resimler/logoşeffaf.png" alt="logo" width="500" height="300"></a>
+         <p>&copy; 2025 Ekim 16, Tüm Haklar Saklıdır.</p>
+    </div>
+    </div>
+
+    
+</body>
+</html>
+
+
+<!-- 
+__   __                       _____                      ____                        _    
+ \ \ / /   _ _ __  _   _ ___  | ____|_ __ ___  _ __ ___  / ___|  __ _ _ __   ___ __ _| | __
+  \ V / | | | '_ \| | | / __| |  _| | '_ ` _ \| '__/ _ \ \___ \ / _` | '_ \ / __/ _` | |/ /
+   | || |_| | | | | |_| \__ \ | |___| | | | | | | |  __/  ___) | (_| | | | | (_| (_| |   < 
+   |_| \__,_|_| |_|\__,_|___/ |_____|_| |_| |_|_|  \___| |____/ \__,_|_| |_|\___\__,_|_|\_\
+   
+   
+
+
+
+ ____    _____   _   _   ____  
+ |___ \  |___ /  / | / | |___ \ 
+   __) |   |_ \  | | | |   __) |
+  / __/   ___) | | | | |  / __/ 
+ |_____| |____/  |_| |_| |_____|
+
+
+
+
+
+   _ _    ___    
+ / / |  / / \   
+ | | | / / _ \  
+ | | |/ / ___ \ 
+ |_|_/_/_/   \_\
+                
+                                
+                        
+-->
